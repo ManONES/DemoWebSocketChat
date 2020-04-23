@@ -33,6 +33,9 @@ public class ChatController {
 		LOGGER.info("....ChatMessage register > chatMessage.getType: " + chatMessage.getType());
 		
 		MessageChat messagechat = new MessageChat();
+
+		messagechat.setMessagechat("Seder:" + chatMessage.getSender() + ". Content:" + chatMessage.getContent());
+		messagechat.setMessagetype("" +chatMessage.getType());		
 		
 		headerAccesor.getSessionAttributes().put("username",chatMessage.getSender());
 		
