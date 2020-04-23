@@ -19,12 +19,14 @@ public class WsConfig implements WebSocketMessageBrokerConfigurer{
 	@Override
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
 		//WebSocketMessageBrokerConfigurer.super.registerStompEndpoints(registry);
+		LOGGER.info("....registerStompEndpoints");
 		registry.addEndpoint("/manycode").withSockJS();
 	}
 	
 	@Override
 	public void configureMessageBroker(MessageBrokerRegistry registry) {
 		//WebSocketMessageBrokerConfigurer.super.configureMessageBroker(registry);
+		LOGGER.info("....configureMessageBroker");
 		registry.enableSimpleBroker("/topic");
 		registry.setApplicationDestinationPrefixes("/app");
 	}

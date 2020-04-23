@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'Hello: Prueba del 23 de abril !'" />
+    
+    <table>
+    	<th:block th:each="mes : ${mensajes}">
+    		<tr>
+    			<td th:text="${mes.id}">..</td>
+    			<td th:text="${mes.messagechat}">..</td>
+    			<td th:text="${mes.messagetype}">..</td>    
+    			<td th:text="${mes.status}">..</td>
+    			<td th:text="${mes.createAt}">..</td>
+			</tr>    
+		</th:block>    
+	</table>
+    
+    
+</body>
+</html>

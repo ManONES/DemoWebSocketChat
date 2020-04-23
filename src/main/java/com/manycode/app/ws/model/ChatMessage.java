@@ -2,9 +2,7 @@ package com.manycode.app.ws.model;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import com.manycode.app.ws.SpringBootWebsocketApplication;
-
 public class ChatMessage {
 
 	private static final Logger LOGGER = LogManager.getLogger(SpringBootWebsocketApplication.class);
