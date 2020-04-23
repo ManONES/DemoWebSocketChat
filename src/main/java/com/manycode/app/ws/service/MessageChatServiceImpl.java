@@ -22,6 +22,14 @@ public class MessageChatServiceImpl implements MessageChatService{
 		return messagechatRepository.save(messagechat);
 	}
 	
+	
+	@Override
+	public MessageChat getMessageChat(Long id) {
+		// TODO Auto-generated method stub
+		return messagechatRepository.findById(id).orElse(null);
+	}
+	
+			
 	@Override
 	public List<MessageChat> listAllMessageChat() {
 		// TODO Auto-generated method stub

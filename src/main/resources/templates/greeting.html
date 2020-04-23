@@ -8,9 +8,18 @@
     <p th:text="'Hello: Prueba del 23 de abril !'" />
     
     <table>
+    	<tr>
+    		<td> .id.</td>
+    		<td> .messagesender.</td>
+    		<td> .messagechat.</td>
+    		<td> .messagetype.</td>    
+    		<td> .status.</td>
+    		<td> .createAt.</td>
+		</tr>    
     	<th:block th:each="mes : ${mensajes}">
     		<tr>
     			<td th:text="${mes.id}">..</td>
+    			<td th:text="${mes.messagesender}">..</td>
     			<td th:text="${mes.messagechat}">..</td>
     			<td th:text="${mes.messagetype}">..</td>    
     			<td th:text="${mes.status}">..</td>
@@ -18,6 +27,8 @@
 			</tr>    
 		</th:block>    
 	</table>
+	
+	<p th:text="${error}" />
     
     
 </body>

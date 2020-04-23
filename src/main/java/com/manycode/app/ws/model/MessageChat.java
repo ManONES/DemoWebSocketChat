@@ -29,6 +29,7 @@ public class MessageChat {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	private String messagesender;
 	private String messagechat;
 	private String messagetype;
 	private String status;
