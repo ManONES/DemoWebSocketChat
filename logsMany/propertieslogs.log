@@ -1,0 +1,39 @@
+[INFO ] 2020-04-26 16:37:12.496 [main] SpringBootWebsocketApplication - Starting SpringBootWebsocketApplication on VaiO-VAIO with PID 2648 (C:\Users\VaiO\git\DemoWebSocketChat\target\classes started by VaiO in C:\Users\VaiO\git\DemoWebSocketChat)
+[INFO ] 2020-04-26 16:37:12.543 [main] SpringBootWebsocketApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-26 16:37:55.274 [main] SpringBootWebsocketApplication - Starting SpringBootWebsocketApplication on VaiO-VAIO with PID 13620 (C:\Users\VaiO\git\DemoWebSocketChat\target\classes started by VaiO in C:\Users\VaiO\git\DemoWebSocketChat)
+[INFO ] 2020-04-26 16:37:55.328 [main] SpringBootWebsocketApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-26 16:41:13.520 [main] SpringBootWebsocketApplication - Starting SpringBootWebsocketApplication on VaiO-VAIO with PID 9036 (C:\Users\VaiO\git\DemoWebSocketChat\target\classes started by VaiO in C:\Users\VaiO\git\DemoWebSocketChat)
+[INFO ] 2020-04-26 16:41:13.539 [main] SpringBootWebsocketApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-26 16:48:36.254 [main] SpringBootWebsocketApplication - Starting SpringBootWebsocketApplication on VaiO-VAIO with PID 11808 (C:\Users\VaiO\git\DemoWebSocketChat\target\classes started by VaiO in C:\Users\VaiO\git\DemoWebSocketChat)
+[INFO ] 2020-04-26 16:48:36.273 [main] SpringBootWebsocketApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-26 16:50:46.435 [main] SpringBootWebsocketApplication - Starting SpringBootWebsocketApplication on VaiO-VAIO with PID 1912 (C:\Users\VaiO\git\DemoWebSocketChat\target\classes started by VaiO in C:\Users\VaiO\git\DemoWebSocketChat)
+[INFO ] 2020-04-26 16:50:46.454 [main] SpringBootWebsocketApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-26 16:51:40.433 [main] SpringBootWebsocketApplication - Starting SpringBootWebsocketApplication on VaiO-VAIO with PID 4524 (C:\Users\VaiO\git\DemoWebSocketChat\target\classes started by VaiO in C:\Users\VaiO\git\DemoWebSocketChat)
+[INFO ] 2020-04-26 16:51:40.451 [main] SpringBootWebsocketApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-26 16:54:45.389 [main] SpringBootWebsocketApplication - Starting SpringBootWebsocketApplication on VaiO-VAIO with PID 6852 (C:\Users\VaiO\git\DemoWebSocketChat\target\classes started by VaiO in C:\Users\VaiO\git\DemoWebSocketChat)
+[INFO ] 2020-04-26 16:54:45.409 [main] SpringBootWebsocketApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-26 16:54:51.945 [main] SpringBootWebsocketApplication - ....registerStompEndpoints
+[INFO ] 2020-04-26 16:54:52.009 [main] SpringBootWebsocketApplication - ....configureMessageBroker
+[INFO ] 2020-04-26 16:54:53.131 [main] SpringBootWebsocketApplication - Started SpringBootWebsocketApplication in 8.681 seconds (JVM running for 13.116)
+[INFO ] 2020-04-26 16:54:53.134 [main] SpringBootWebsocketApplication - ....INICIA CHAT MANY SpringBootWebsocketApplication
+[INFO ] 2020-04-26 16:56:41.834 [main] SpringBootWebsocketApplication - Starting SpringBootWebsocketApplication on VaiO-VAIO with PID 12760 (C:\Users\VaiO\git\DemoWebSocketChat\target\classes started by VaiO in C:\Users\VaiO\git\DemoWebSocketChat)
+[INFO ] 2020-04-26 16:56:41.849 [main] SpringBootWebsocketApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-26 16:56:48.298 [main] SpringBootWebsocketApplication - ....registerStompEndpoints
+[INFO ] 2020-04-26 16:56:48.339 [main] SpringBootWebsocketApplication - ....configureMessageBroker
+[INFO ] 2020-04-26 16:56:49.083 [main] SpringBootWebsocketApplication - Started SpringBootWebsocketApplication in 7.943 seconds (JVM running for 11.574)
+[INFO ] 2020-04-26 16:56:49.085 [main] SpringBootWebsocketApplication - ....INICIA CHAT MANY SpringBootWebsocketApplication
+[INFO ] 2020-04-26 16:59:28.249 [http-nio-8080-exec-1] SpringBootWebsocketApplication - ....Lista TODO mensaje en  BD.
+[INFO ] 2020-04-26 16:59:28.673 [http-nio-8080-exec-1] SpringBootWebsocketApplication - ....Fin Lista TODO mensaje en  BD.
+[INFO ] 2020-04-26 16:59:54.160 [clientInboundChannel-7] SpringBootWebsocketApplication - ....ChatMessage register > chatMessage.getSender: Many
+[INFO ] 2020-04-26 16:59:54.161 [clientInboundChannel-7] SpringBootWebsocketApplication - ....ChatMessage register > chatMessage.getContent: null
+[INFO ] 2020-04-26 16:59:54.162 [clientInboundChannel-7] SpringBootWebsocketApplication - ....ChatMessage register > chatMessage.getType: JOIN
+[INFO ] 2020-04-26 16:59:54.163 [clientInboundChannel-7] SpringBootWebsocketApplication - ....Guarda mensaje en  BD.
+[INFO ] 2020-04-26 16:59:54.295 [clientInboundChannel-7] SpringBootWebsocketApplication - ....Fin Guarda mensaje en  BD.
+[INFO ] 2020-04-26 17:00:01.352 [clientInboundChannel-1] SpringBootWebsocketApplication - ....ChatMessage sendMessage.
+[INFO ] 2020-04-26 17:00:01.352 [clientInboundChannel-1] SpringBootWebsocketApplication - ....ChatMessage sendMessage > chatMessage.getSender: Many
+[INFO ] 2020-04-26 17:00:01.354 [clientInboundChannel-1] SpringBootWebsocketApplication - ....ChatMessage sendMessage > chatMessage.getContent: Hola mundo
+[INFO ] 2020-04-26 17:00:01.355 [clientInboundChannel-1] SpringBootWebsocketApplication - ....ChatMessage sendMessage > chatMessage.getType: CHAT
+[INFO ] 2020-04-26 17:00:01.355 [clientInboundChannel-1] SpringBootWebsocketApplication - ....Guarda mensaje en  BD.
+[INFO ] 2020-04-26 17:00:01.364 [clientInboundChannel-1] SpringBootWebsocketApplication - ....Fin Guarda mensaje en  BD.
+[INFO ] 2020-04-26 17:00:04.583 [http-nio-8080-exec-6] SpringBootWebsocketApplication - ....Lista TODO mensaje en  BD.
+[INFO ] 2020-04-26 17:00:04.608 [http-nio-8080-exec-6] SpringBootWebsocketApplication - ....Fin Lista TODO mensaje en  BD.
