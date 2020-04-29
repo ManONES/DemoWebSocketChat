@@ -37,3 +37,9 @@
 [INFO ] 2020-04-26 17:00:01.364 [clientInboundChannel-1] SpringBootWebsocketApplication - ....Fin Guarda mensaje en  BD.
 [INFO ] 2020-04-26 17:00:04.583 [http-nio-8080-exec-6] SpringBootWebsocketApplication - ....Lista TODO mensaje en  BD.
 [INFO ] 2020-04-26 17:00:04.608 [http-nio-8080-exec-6] SpringBootWebsocketApplication - ....Fin Lista TODO mensaje en  BD.
+[INFO ] 2020-04-29 14:10:32.502 [main] SpringBootWebsocketApplication - Starting SpringBootWebsocketApplication on DESKTOP-DVEVJTF with PID 8872 (C:\Users\SIES\git\DemoWebSocketChat\target\classes started by SIES in C:\Users\SIES\git\DemoWebSocketChat)
+[INFO ] 2020-04-29 14:10:32.531 [main] SpringBootWebsocketApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-04-29 14:10:38.570 [main] SpringBootWebsocketApplication - ....registerStompEndpoints
+[INFO ] 2020-04-29 14:10:38.613 [main] SpringBootWebsocketApplication - ....configureMessageBroker
+[INFO ] 2020-04-29 14:10:39.454 [main] SpringBootWebsocketApplication - Started SpringBootWebsocketApplication in 7.448 seconds (JVM running for 9.564)
+[INFO ] 2020-04-29 14:10:39.457 [main] SpringBootWebsocketApplication - ....INICIA CHAT MANY SpringBootWebsocketApplication
